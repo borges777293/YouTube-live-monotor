@@ -1,0 +1,15 @@
+name: Probar notificaciones ntfy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar notificación
+        run: |
+          curl \
+            -H "Title: Prueba de ntfy" \
+            -d "¡Funciona! Tu iPhone puede recibir notificaciones desde GitHub." \
+            https://ntfy.sh/ytlive-8f72c9a41d6b53e0a7f19c82
