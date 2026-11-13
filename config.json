@@ -1,0 +1,23 @@
+{
+  "channels": [
+    {
+      "name": "Canal 1",
+      "channel_id": "PON_AQUI_EL_ID_DEL_CANAL",
+      "keywords": [
+        "noticias",
+        "debate",
+        "directo especial"
+      ]
+    },
+    {
+      "name": "Canal 2",
+      "channel_id": "PON_AQUI_EL_ID_DEL_CANAL",
+      "keywords": [
+        "entrevista",
+        "especial"
+      ]
+    }
+  ],
+  "check_interval": 5,
+  "notification_service": "telegram"
+}
