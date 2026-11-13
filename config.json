@@ -1,23 +1,14 @@
 {
   "channels": [
     {
-      "name": "Canal 1",
-      "channel_id": "PON_AQUI_EL_ID_DEL_CANAL",
+      "name": "Una Alienada",
+      "channel_id": "UC-RY_mNm2zlULbSJM75xmaA",
       "keywords": [
-        "noticias",
-        "debate",
-        "directo especial"
-      ]
-    },
-    {
-      "name": "Canal 2",
-      "channel_id": "PON_AQUI_EL_ID_DEL_CANAL",
-      "keywords": [
-        "entrevista",
-        "especial"
+        "alienpito",
+        "alienpit0"
       ]
     }
   ],
   "check_interval": 5,
-  "notification_service": "telegram"
+  "notification_service": "ntfy"
 }
