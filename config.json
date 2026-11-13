@@ -2,13 +2,17 @@
   "channels": [
     {
       "name": "Una Alienada",
-      "channel_id": "UC-RY_mNm2zlULbSJM75xmaA",
-      "keywords": [
-        "alienpito",
-        "alienpit0"
-      ]
+      "handle": "@unaalienada"
+    },
+    {
+      "name": "Tipito Live",
+      "handle": "@tipitolive"
     }
   ],
-  "check_interval": 5,
+  "keywords": [
+    "alienpito",
+    "alien pit0"
+  ],
+  "check_interval": 10,
   "notification_service": "ntfy"
 }
